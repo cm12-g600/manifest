@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="device/huawei/msm7x27a-common" name="CyanogenMod12Y300/android_device_huawei_msm7x27a-common" remote="github" revision="cm-12.1"/>
+
+  <project path="device/huawei/u8950" name="cm12-g600/android_device_huawei_u8950" remote="github" revision="cm-12.1" />
+  <project path="device/huawei/u8833" name="CyanogenMod12Y300/android_device_huawei_u8833" remote="github" revision="cm-12.1" />
+
+  <project path="vendor/huawei" name="infernape763/proprietary_vendor_huawei" remote="github" revision="kitkat" />
+
+  <project path="kernel/huawei/huawei-kernel-3.4" name="cm12-g600/chil360-kernel" revision="cm-12.1" />
+
+  <!-- QCOM Hardware -->
+  <project path="hardware/qcom/display-caf/msm7x27a" name="SlimLP-Y300/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
+  <project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" remote="github" revision="lp5.1" />
+
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/av" name="cm12-g600/android_frameworks_av" groups="pdk" />
+
+</manifest>
